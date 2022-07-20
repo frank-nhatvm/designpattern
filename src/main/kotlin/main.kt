@@ -1,6 +1,9 @@
 import factory.ConcreteCreator
+import singleton.Singleton
 
 fun main() {
-    val product = ConcreteCreator(name = "computer", price = 18f).create()
-    println(product.showInfo())
+    Singleton.increaseVisit()
+    Singleton.showCurrentCountUser()
+    Singleton.increaseVisit()
+    Singleton.showCurrentCountUser()
 }
