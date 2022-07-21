@@ -1,4 +1,4 @@
-package factory
+package creationalPattern.factory
 
 abstract class Creator {
     abstract  fun create(): Product

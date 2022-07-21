@@ -1,4 +1,4 @@
-package singleton
+package creationalPattern.singleton
 
 object Singleton {
 

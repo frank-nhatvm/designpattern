@@ -1,5 +1,4 @@
-import factory.ConcreteCreator
-import singleton.Singleton
+import creationalPattern.singleton.Singleton
 
 fun main() {
     Singleton.increaseVisit()
