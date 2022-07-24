@@ -46,3 +46,7 @@ class  TextShape : TextView(), Shape{
         TODO("Not yet implemented")
     }
 }
+
+fun main() {
+    val textShape = TextShape()
+}
